@@ -1,0 +1,43 @@
+{
+  "name": "HTML5Blank",
+  "description": "Powerful shell for rapidly deploying your WordPress projects",
+  "license": "MIT",
+  "version": "1.5.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toddmotto/html5blank.git"
+  },
+  "author": "Todd Motto",
+  "scripts": {
+    "watch": "gulp watch",
+    "watch:online": "gulp watch:online",
+    "build": "gulp build",
+    "modernizr": "gulp modernizr"
+  },
+  "dependencies": {
+    "modernizr": "^3.8.0",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "del": "^5.1.0",
+    "eslint": "^5.8.0",
+    "eslint-config-wordpress": "^2.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-livereload": "^4.0.2",
+    "gulp-load-plugins": "^2.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-template": "^5.0.0",
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.4.1",
+    "vinyl-ftp": "^0.6.1"
+  },
+  "engines": {
+    "node": ">=10.13.0"
+  }
+}
