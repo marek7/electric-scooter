@@ -11,5 +11,7 @@
 		$( document ).ready( function() {
 			$( '.your-class' ).slick();
 		});
+
 	});
+
 } ( this, jQuery ) );

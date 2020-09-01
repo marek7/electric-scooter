@@ -5,9 +5,51 @@
 
 
 // Header container
-.header {}
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: #fff;
+    }
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
 
 // Logo
-.logo {}
+.logo {
 
-.logo-img {}
+    flex-basis: 50%;
+
+    h1 {
+        text-transform: uppercase; 
+        font-size: 36px;        
+     }
+}
+
+// Navigation
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    font-family: $font-family-heading;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2rem;
+    flex-basis: 50%;    
+
+    ul{
+        width: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        padding-left: 0;
+        margin-right:-2%;
+
+        li {
+            margin-right: 2%;
+        }
+    }
+}

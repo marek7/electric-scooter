@@ -8,7 +8,8 @@
  * Typography
  */
 
-$font-family-base: "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif;
+$font-family-base: "Poppins", sans-serif;
+$font-family-heading: "Oswald", sans-serif;
 $font-size-base: 140%;
 $line-height-base: 1.5;
 
@@ -16,8 +17,20 @@ $line-height-base: 1.5;
 /**
  * Colors
  */
-
-$text-color: #444;
+$nav-color: #bdbdbd;
+$text-color: #454545;
+$h-main-color: #001232;
+$product-name-color: #353535;
+$product-sub-title: #333333;
+$h-light-color: #e1e1e1;
+$p-light-color: #ececec;
+$orange: #ffb52f;
+$tag-color: #9b9b9b;
+$title-on-pic: #303030;
+$footer-text-color: #919191;
+$footer-h3-color: #E4E4E4;
+$footer-h5-color: #B6B6B6;
+$footer-a-bolod-color: #a7a7a7;
 $body-bg: #fff;
 $selection-bg: #04A4CC;
 
